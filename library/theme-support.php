@@ -3,7 +3,7 @@
 if ( ! function_exists( 'foundationpress_theme_support' ) ) :
 	function foundationpress_theme_support() {
 		// Add language support
-		load_theme_textdomain( 'foundationpress', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'rcwp', get_template_directory() . '/languages' );
 
 		// Switch default core markup for search form, comment form, and comments to output valid HTML5
 		add_theme_support(

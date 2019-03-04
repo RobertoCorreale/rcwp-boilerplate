@@ -9,8 +9,8 @@
 
 register_nav_menus(
 	array(
-		'top-bar-r'  => esc_html__( 'Right Top Bar', 'foundationpress' ),
-		'mobile-nav' => esc_html__( 'Mobile', 'foundationpress' ),
+		'top-bar-r'  => esc_html__( 'Right Top Bar', 'rcwp' ),
+		'mobile-nav' => esc_html__( 'Mobile', 'rcwp' ),
 	)
 );
 
@@ -45,7 +45,7 @@ if ( ! function_exists( 'foundationpress_mobile_nav' ) ) {
 		wp_nav_menu(
 			array(
 				'container'      => false,                         // Remove nav container
-				'menu'           => __( 'mobile-nav', 'foundationpress' ),
+				'menu'           => __( 'mobile-nav', 'rcwp' ),
 				'menu_class'     => 'vertical menu',
 				'theme_location' => 'mobile-nav',
 				'items_wrap'     => '<ul id="%1$s" class="%2$s" data-accordion-menu data-submenu-toggle="true">%3$s</ul>',

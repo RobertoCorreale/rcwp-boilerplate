@@ -6,27 +6,27 @@ if ( ! function_exists( 'foundationpress_gutenberg_support' ) ) :
     // Add foundation color palette to the editor
     add_theme_support( 'editor-color-palette', array(
         array(
-            'name' => __( 'Primary Color', 'foundationpress' ),
+            'name' => __( 'Primary Color', 'rcwp' ),
             'slug' => 'primary',
             'color' => '#1779ba',
         ),
         array(
-            'name' => __( 'Secondary Color', 'foundationpress' ),
+            'name' => __( 'Secondary Color', 'rcwp' ),
             'slug' => 'secondary',
             'color' => '#767676',
         ),
         array(
-            'name' => __( 'Success Color', 'foundationpress' ),
+            'name' => __( 'Success Color', 'rcwp' ),
             'slug' => 'success',
             'color' => '#3adb76',
         ),
         array(
-            'name' => __( 'Warning color', 'foundationpress' ),
+            'name' => __( 'Warning color', 'rcwp' ),
             'slug' => 'warning',
             'color' => '#ffae00',
         ),
         array(
-            'name' => __( 'Alert color', 'foundationpress' ),
+            'name' => __( 'Alert color', 'rcwp' ),
             'slug' => 'alert',
             'color' => '#cc4b37',
         )

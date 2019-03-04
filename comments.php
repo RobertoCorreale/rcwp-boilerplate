@@ -22,7 +22,7 @@ if ( have_comments() ) :
 				'callback'          => null,
 				'end-callback'      => null,
 				'type'              => 'all',
-				'reply_text'        => __( 'Reply', 'foundationpress' ),
+				'reply_text'        => __( 'Reply', 'rcwp' ),
 				'page'              => '',
 				'per_page'          => '',
 				'avatar_size'       => 48,
@@ -31,7 +31,7 @@ if ( have_comments() ) :
 				'format'            => 'html5',
 				'short_ping'        => false,
 				'echo'              => true,
-				'moderation'        => __( 'Your comment is awaiting moderation.', 'foundationpress' ),
+				'moderation'        => __( 'Your comment is awaiting moderation.', 'rcwp' ),
 			)
 		);
 
@@ -51,12 +51,12 @@ endif;
 	Prevent access to this file directly
 	*/
 
-	defined( 'ABSPATH' ) || die( __( 'Please do not load this page directly. Thanks!', 'foundationpress' ) );
+	defined( 'ABSPATH' ) || die( __( 'Please do not load this page directly. Thanks!', 'rcwp' ) );
 
 	if ( post_password_required() ) { ?>
 	<section id="comments">
 		<div class="notice">
-			<p class="bottom"><?php _e( 'This post is password protected. Enter the password to view comments.', 'foundationpress' ); ?></p>
+			<p class="bottom"><?php _e( 'This post is password protected. Enter the password to view comments.', 'rcwp' ); ?></p>
 		</div>
 	</section>
 	<?php
