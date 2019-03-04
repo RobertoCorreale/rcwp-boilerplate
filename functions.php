@@ -8,9 +8,6 @@ require_once('library/cleanup.php');
 /** Required for Foundation to work properly */
 require_once('library/foundation.php');
 
-/** Format comments */
-//require_once('library/class-foundationpress-comments.php');
-
 /** Register all navigation menus */
 require_once('library/navigation.php');
 
@@ -41,6 +38,9 @@ require_once('library/custom-nav.php');
 
 /** Gutenberg editor support */
 require_once('library/gutenberg.php');
+
+require_once ('library/content/custom-post-type.php');
+require_once ('library/content/custom-taxonomy.php');
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/class-foundationpress-protocol-relative-theme-assets.php' );
