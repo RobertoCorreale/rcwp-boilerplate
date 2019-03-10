@@ -40,7 +40,7 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 		wp_enqueue_script('CSSPlugin', "https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/CSSPlugin.min.js", [], '1.0', false);
 		wp_enqueue_script('CSSRulePlugin', "https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/CSSRulePlugin.min.js", [], '1.0', false);
 
-		wp_enqueue_script( 'foundation', get_stylesheet_directory_uri() . '/dist/assets/js/' . foundationpress_asset_path( 'app.js' ), array( 'jquery' ), '2.10.4', true );
+		wp_enqueue_script( 'foundation', get_stylesheet_directory_uri() . '/dist/assets/js/' . foundationpress_asset_path( 'app.js' ), [], '2.10.4', true );
 
 		wp_localize_script('foundation', 'Calls', array(
 			'url' => admin_url('admin-ajax.php'),
