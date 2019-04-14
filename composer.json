@@ -14,9 +14,6 @@
         "composer/installers": "~1.0"
     },
     "require-dev": {
-        "squizlabs/php_codesniffer": "*",
-        "wimg/php-compatibility": "*",
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
         "kint-php/kint": "^3.1"
     }
 }
